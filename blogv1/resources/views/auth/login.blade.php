@@ -5,7 +5,7 @@
         <div class="col-md-5 col-md-offset-5" style="margin-left:auto; margin-right:auto;">
             <div class="card">
                 <div class="card-header p-3 mb-2 bg-dark text-white" style="text-align: center">
-                    SISTEMA DE GESTIÓN HOTELERA 2021
+                    SISTEMA DE GESTIÓN HOTELERA Barabento 2021
                 </div>
                 <div class="card-body">
                     <form method="POST" action="{{ route('login')}}">
