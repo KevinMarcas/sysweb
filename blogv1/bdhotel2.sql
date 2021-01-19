@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-01-2021 a las 20:06:29
+-- Tiempo de generación: 19-01-2021 a las 02:35:21
 -- Versión del servidor: 10.4.17-MariaDB
 -- Versión de PHP: 7.4.13
 
@@ -37,7 +37,7 @@ CREATE TABLE `categoria` (
 --
 
 INSERT INTO `categoria` (`IdCategoria`, `Denominacion`) VALUES
-(2, 'BEBIDAS'),
+(2, 'BEBIDAS FRIAS'),
 (3, 'BOCADITOS');
 
 -- --------------------------------------------------------
@@ -160,7 +160,12 @@ CREATE TABLE `producto` (
 --
 
 INSERT INTO `producto` (`IdProducto`, `NombProducto`, `Imagen`, `Precio`, `Descripcion`, `IdCategoria`) VALUES
-(1, 'COCA COLA', 'a.jpg', '3.00', 'personal', 2);
+(1, 'COCA COLA', 'a.jpg', '3.00', 'personal', 2),
+(3, 'FANTA', 'fanta.jpg', '3.00', 'ninguna', 2),
+(4, 'POWERADE', 'Powerade.jpg', '4.00', 'ninguna', 2),
+(5, 'Torta de chocolate', 'torta.jpg', '2.00', 'Torta bañada en chocolate con chispas', 3),
+(6, 'Torta de fresa', '357torta-fresa.jpg', '2.00', 'Torta helada de fresa', 3),
+(7, 'EMPANADAS', 'empanadas-de-pollo.jpg', '4.00', 'Empanadas de pollo', 3);
 
 -- --------------------------------------------------------
 
@@ -225,7 +230,7 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`IdUsuario`, `NumDocumento`, `Nombre`, `Apellido`, `password`, `Estado`, `Celular`, `email`) VALUES
 (1, '62603083', 'KEVIN', 'MARCAS HUAMANI', '$2y$10$aC66j3wL5CY5/rPCVnwMF.sr0Z7l/NFQxOwK5dXmIIcw5D0YMffp2', 'ACTIVO', '930367269', 'Kevinmarcas3@gmail.com'),
-(3, '74685689', 'YAKS ANDERSON', 'GONZALES CONDORI', '$2y$10$5FWaXUkAJYtJL6ChPuPgWuo/LnKVT6Bvj99RoqkB5YwqBAJ1uqmvu', 'ACTIVO', '921356991', 'agonzales159753@gmail.com');
+(3, '74685689', 'YAKS ANDERSON', 'GONZALES CONDORI', '$2y$10$.fXOV14QR8GHb3PnRmxxiewlts.M2Ioq59wFj8inzKWrYBreEsoFi', 'ACTIVO', '921356991', 'agonzales159753@gmail.com');
 
 --
 -- Índices para tablas volcadas
@@ -338,7 +343,7 @@ ALTER TABLE `pago`
 -- AUTO_INCREMENT de la tabla `producto`
 --
 ALTER TABLE `producto`
-  MODIFY `IdProducto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `IdProducto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT de la tabla `tipohabitacion`
