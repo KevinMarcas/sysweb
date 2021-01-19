@@ -72,7 +72,11 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #f8fafc;
+
+  background-image: url(/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {

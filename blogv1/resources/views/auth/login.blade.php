@@ -4,7 +4,7 @@
     <div class="row" style="margin-top: 100px;">
         <div class="col-md-5 col-md-offset-5" style="margin-left:auto; margin-right:auto;">
             <div class="card">
-                <div class="card-header p-3 mb-2 bg-dark text-white" style="text-align: center">
+                <div class="card-header p-3 mb-2 bg-primary text-white" style="text-align: center">
                     SISTEMA DE GESTIÓN HOTELERA BARABENTO 2021
                 </div>
                 <div class="card-body">
@@ -22,6 +22,7 @@
                              placeholder="Ingrese su Email"
                              value= "{{old ('email')}}">
                             </div>
+
                             {!! $errors->first('email', '<span class="help-block text-danger">:message </span>') !!}
                         </div>
 
@@ -43,7 +44,7 @@
 
                     </form>
                 </div>
-                <div class="card-footer p-3 mb-2 bg-dark text-white" style="text-align: center">
+                <div class="card-footer p-3 mb-2 bg-primary text-white" style="text-align: center">
                     <a href="" style="text-decoration: none; color:white">Olvidé mi contraseña</a>
                 </div>
             </div>

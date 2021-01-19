@@ -8,7 +8,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Hotel el encanto</title>
-  <link rel="shortcut icon" type="image/ico" href="/img/logo-sistemah.ico"/>
+  <link rel="shortcut icon" type="image/ico" href="/img/Page.png"/>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="{{asset('bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
@@ -63,14 +63,14 @@ desired effect
 |               | sidebar-mini                            |
 |---------------------------------------------------------|
 -->
-<body class="hold-transition skin-red sidebar-mini">
+<body class="hold-transition skin-red   sidebar-mini">
 <div class="wrapper">
 
   <!-- Main Header -->
-  <header class="main-header">
+  <header class="main-header" >
 
     <!-- Logo -->
-    <a href="{{asset('reserva/registro')}}" class="logo">
+    <a  href="{{asset('reserva/registro')}}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>S</b>H</span>
       <!-- logo for regular state and mobile devices -->
@@ -80,12 +80,12 @@ desired effect
     <!-- Header Navbar -->
     <nav class="navbar navbar-static-top" role="navigation">
       <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+      <a href="." class="sidebar-toggle" data-toggle="push-menu" role="button">
         <span class="sr-only">Toggle navigation</span>
       </a>
 
       <!-- Navbar Right Menu -->
-      <div class="navbar-custom-menu ">
+      <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
 
           <!-- User Account Menu -->
@@ -126,7 +126,7 @@ desired effect
   <aside class="main-sidebar">
 
     <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
+    <section class="sidebar" >
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">Menú</li>
@@ -278,7 +278,7 @@ desired effect
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> Todos los derechos reservados.
+    <strong>Copyright &copy; 2021 <a href="">Company</a>.</strong> Todos los derechos reservados.
   </footer>
 
 
